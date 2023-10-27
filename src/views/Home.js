@@ -1,5 +1,5 @@
 import {useState} from "react";
-import tabProduits from "../data/tabProduits";
+import tabProduits from "../data/tabProduits.json";
 import Product from "../component/Product";
 import {ScrollView, View, StyleSheet, Text, Button} from "react-native";
 

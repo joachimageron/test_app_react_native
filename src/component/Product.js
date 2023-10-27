@@ -28,7 +28,6 @@ export default function Product(props) {
                         </TouchableWithoutFeedback>
                         ):(
                         <Checkbox value={produit.selected} onValueChange={(e) => {
-                            alert('touché !')
                             changeProduct(produit.id);
                         }}/>
                     )}
