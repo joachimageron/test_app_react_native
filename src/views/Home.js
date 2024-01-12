@@ -15,7 +15,7 @@ export default function Home(props){
 
             <ScrollView contentContainerStyle={styles.listeProduct} >
                 {produits.map(produit =>(
-                    <Product key={produit.id} produit={produit} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
+                    <Product key={produit.id} produit={produit} detail={false} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
                 ))}
             </ScrollView>
 

@@ -12,7 +12,7 @@ export default function Panier(props) {
             <ScrollView>
                 {produits.map(produit =>(
                     produit.selected &&
-                    <Product changeScreen={changeScreen} key={produit.id} produit={produit} changeProduct={()=>changeProduct(produit.id)}/>
+                    <Product changeScreen={changeScreen} key={produit.id} produit={produit} detail={false} changeProduct={()=>changeProduct(produit.id)}/>
 
                 ))}
             </ScrollView>

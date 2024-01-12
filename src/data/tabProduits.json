@@ -3,6 +3,7 @@
         "id": "1",
         "nom": "Chaise Moderne",
         "description": "Une chaise au design moderne et confortable.",
+        "longDescription": "Une chaise au design moderne et confortable. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
         "prix": 89.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Chaise"
@@ -11,6 +12,7 @@
         "id": "2",
         "nom": "Table Ronde",
         "description": "Table ronde parfaite pour les dîners en famille.",
+        "longDescription": "Table ronde parfaite pour les dîners en famille. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
         "prix": 199.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Table"
@@ -19,6 +21,7 @@
         "id": "3",
         "nom": "Lampe de Bureau",
         "description": "Lampe à LED adaptée pour les longues heures de travail.",
+        "longDescription": "Lampe à LED adaptée pour les longues heures de travail. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
         "prix": 49.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/5733FF/FFFFFF?text=Lampe"
@@ -27,6 +30,7 @@
         "id": "4",
         "nom": "Etagère Murale",
         "description": "Etagère suspendue pour exposer vos objets préférés.",
+        "longDescription": "Etagère suspendue pour exposer vos objets préférés. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
         "prix": 59.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/FF33A1/FFFFFF?text=Etagere"
@@ -35,6 +39,7 @@
         "id": "5",
         "nom": "Canapé d'Angle",
         "description": "Canapé spacieux et doux, idéal pour les soirées film.",
+        "longDescription": "Canapé spacieux et doux, idéal pour les soirées film. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
         "prix": 799.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/33F1FF/FFFFFF?text=Canape"

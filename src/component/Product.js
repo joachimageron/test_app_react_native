@@ -7,6 +7,8 @@ export default function Product(props) {
     const {changeScreen} = props
     const {produit} = props
     const {changeProduct} = props
+    const {detail} = props
+    console.log(produit)
     return (
         <TouchableOpacity onPress={() => changeScreen('detail', produit.id)} style={style.listItem}>
             <Image source={produit.imageUrl} style={style.img} resizeMode="cover"/>
@@ -15,7 +17,7 @@ export default function Product(props) {
                 <Text>{produit.prix}</Text>
             </View>
             <View style={style.flexrow}>
-                <Text>{produit.description}</Text>
+                {detail ?  <Text>{produit.longDescription}</Text> : <Text>{produit.description}</Text>}
                 <View>
                     {Platform.OS === 'web' ? (
                         <TouchableWithoutFeedback onPress={(e) => {

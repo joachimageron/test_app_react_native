@@ -9,7 +9,7 @@ export default function Detail(props){
     const produit = produits.find(e => e.id === parametre)
     return(
         <View>
-            <Product key={produit.id} produit={produit} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
+            <Product key={produit.id} produit={produit} detail={true} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
             <Button title="Go to Home" onPress={() => changeScreen('home')}/>
         </View>
     )
