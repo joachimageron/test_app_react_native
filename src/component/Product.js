@@ -5,23 +5,22 @@ import Checkbox from 'expo-checkbox';
 
 export default function Product(props) {
     const {changeScreen} = props
+    const {returnPage} = props
     const {produit} = props
     const {changeProduct} = props
     const {detail} = props
-    console.log(produit)
     return (
-        <TouchableOpacity onPress={() => changeScreen('detail', produit.id)} style={style.listItem}>
-            <Image source={produit.imageUrl} style={style.img} resizeMode="cover"/>
+        <TouchableOpacity onPress={() => changeScreen('detail', returnPage ,produit.id)} style={style.listItem}>
+            <Image source={{uri : produit.imageUrl}} style={style.img} resizeMode="cover"/>
             <View style={[style.flexrow, style.header]}>
                 <Text>{produit.nom}</Text>
                 <Text>{produit.prix}</Text>
             </View>
             <View style={style.flexrow}>
-                {detail ?  <Text>{produit.longDescription}</Text> : <Text>{produit.description}</Text>}
+                {detail ?  <Text style={style.desc}>{produit.longDescription}</Text> : <Text style={style.desc}>{produit.description}</Text>}
                 <View>
                     {Platform.OS === 'web' ? (
                         <TouchableWithoutFeedback onPress={(e) => {
-                            console.log(Platform.OS)
                             e.preventDefault();
                             changeProduct(produit.id);
                         }}>
@@ -60,5 +59,8 @@ const style = StyleSheet.create({
     header: {
         marginBottom: 10,
         marginTop: 5,
+    },
+    desc:{
+        width: "80%"
     }
 })

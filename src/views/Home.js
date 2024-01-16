@@ -2,6 +2,7 @@ import {useState} from "react";
 import tabProduits from "../data/tabProduits.json";
 import Product from "../component/Product";
 import {ScrollView, View, StyleSheet, Text, Button} from "react-native";
+import PageHeader from "../component/PageHeader";
 
 export default function Home(props){
     const {changeScreen} = props
@@ -9,29 +10,21 @@ export default function Home(props){
     const {produits} = props
     return (
         <View style={styles.container}>
-            <Text>Ma super app !!!</Text>
-
-            <Text>{produits.filter(produit => produit.selected).length}</Text>
-
+            <PageHeader currentPage={"Home"} produits={produits} changeScreen={changeScreen}/>
             <ScrollView contentContainerStyle={styles.listeProduct} >
                 {produits.map(produit =>(
-                    <Product key={produit.id} produit={produit} detail={false} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
+                    <Product key={produit.id} produit={produit} detail={false} returnPage={'home'} changeProduct={()=>changeProduct(produit.id)} changeScreen={changeScreen}/>
                 ))}
             </ScrollView>
-
-            <Button title="Go to Panier" onPress={() => changeScreen('panier')} />
-            <Button title="Go to Detail" onPress={() => changeScreen('detail',"3")} />
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     listeProduct: {
-        maxWidth: 400,
+        maxWidth: "100%",
         flexDirection: "row",
         flexWrap: "wrap",
-        backgroundColor: '#fff',
-        justifyContent: 'flex-start',
-
+        justifyContent: 'center',
     }
 });

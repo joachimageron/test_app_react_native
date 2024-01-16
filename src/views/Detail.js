@@ -6,6 +6,7 @@ export default function Detail(props){
     const {changeProduct} = props
     const {produits} = props
     const {parametre} = props
+   console.log(produits)
     const produit = produits.find(e => e.id === parametre)
     return(
         <View>

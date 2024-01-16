@@ -43,5 +43,32 @@
         "prix": 799.99,
         "selected": false,
         "imageUrl": "https://via.placeholder.com/150/33F1FF/FFFFFF?text=Canape"
+    },
+    {
+        "id": "6",
+        "nom": "Bureau d'Angle",
+        "description": "Bureau d'angle pour un espace de travail optimisé.",
+        "longDescription": "Bureau d'angle pour un espace de travail optimisé. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
+        "prix": 299.99,
+        "selected": false,
+        "imageUrl": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Bureau"
+    },
+    {
+        "id": "7",
+        "nom": "Bibliothèque",
+        "description": "Bibliothèque pour ranger vos livres et vos objets.",
+        "longDescription": "Bibliothèque pour ranger vos livres et vos objets. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
+        "prix": 149.99,
+        "selected": false,
+        "imageUrl": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Bibliotheque"
+    },
+    {
+        "id": "8",
+        "nom": "Fauteuil",
+        "description": "Fauteuil confortable pour se détendre.",
+        "longDescription": "Fauteuil confortable pour se détendre. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc. Sed vitae eros quis nunc aliquam ultricies. Donec euismod, nisl nec aliquam ultricies, nunc elit aliquam nunc, vitae aliquam nunc nisl vitae nunc.",
+        "prix": 149.99,
+        "selected": false,
+        "imageUrl": "https://via.placeholder.com/150/5733FF/FFFFFF?text=Fauteuil"
     }
 ]
